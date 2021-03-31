@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: calculateTip,
                 child: Text('Calculate Tip')),
             Text(
-              'Total Tip:' + tipString
+              'Total Tip: $tipString'
             ),
           ],
         ),
